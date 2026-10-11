@@ -1,0 +1,2 @@
+# CIDEBMUN-2026
+La pagina oficial del CIDEBMUN 2026 (REGISTROS EN MYMUN)
