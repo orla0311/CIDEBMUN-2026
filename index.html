@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CIDEBMUN 2026</title>
+<meta name="description" content="CIDEBMUN 2026 — Change. Lead. Inspire.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CIDEBMUN 2026">
+<meta property="og:title" content="CIDEBMUN 2026">
+<meta property="og:description" content="Change. Lead. Inspire.">
+<meta property="og:image" content="https://orla0311.github.io/CIDEBMUN-2026/portada.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://orla0311.github.io/CIDEBMUN-2026/portada.png">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CIDEBMUN — Change. Lead. Inspire.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Chivo:wght@300;400;500;700&display=swap">
+<link rel="stylesheet" href="ds-styles.css">
+<script src="ds-bundle.js"></script>
+<script src="liquid-reveal.js"></script>
+<style>
+  html { scroll-behavior: smooth; }
+  :root { --font-heading: "Newsreader", Georgia, serif; --font-body: "Chivo", "Helvetica Neue", sans-serif; }
+  body { margin: 0; background: var(--color-bg); color: var(--color-text); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; overflow-x: hidden; }
+  * { box-sizing: border-box; }
+  h1, h2, h3 { overflow-wrap: break-word; }
+  a { color: var(--color-accent-700); text-decoration: none; }
+  a:hover { color: var(--color-accent-900); }
+  @keyframes cm-rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+  @keyframes cm-mask { from { opacity: 0; transform: translateY(42%); } to { opacity: 1; transform: none; } }
+  @keyframes cm-scale { from { opacity: 0; transform: scale(0.86); } to { opacity: 1; transform: none; } }
+  @keyframes cm-side { from { opacity: 0; transform: translateX(20px); } to { opacity: 1; transform: none; } }
+  @keyframes cm-fade { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes cm-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; opacity: 1 !important; transform: none !important; }
+  }
+</style>
+</helmet>
+
+<div style="font-family: var(--font-body); background: var(--color-bg);">
+
+  <header style="position: relative; background: var(--color-accent-900); color: #f2f2f3; overflow: hidden; padding: 0 0 calc(var(--space-8) * 2);">
+    <div style="position: absolute; inset: 0; pointer-events: none; animation: cm-fade 1.8s both ease;"><img src="un-general-assembly.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.30;"><div style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(27,39,51,0.62), rgba(27,39,51,0.88));"></div></div>
+
+    <nav style="position: relative; display: flex; align-items: center; gap: var(--space-6); flex-wrap: wrap; padding: var(--space-6) calc(var(--space-8) * 1.5); border-bottom: 1px solid rgba(242,242,243,0.16);">
+      <a href="#top" style="display: flex; align-items: baseline; gap: 8px; margin-right: auto; color: #f2f2f3; font-family: var(--font-heading); font-weight: 700; font-size: 22px; letter-spacing: 0.02em; animation: cm-scale 1s both cubic-bezier(0.16,1,0.3,1) 0.06s;">CIDEB<span style="font-weight: 400; color: var(--color-accent-300);">MUN</span></a>
+      <a href="#about" style="color: #d3dae2; font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; animation: cm-rise 1s both cubic-bezier(0.16,1,0.3,1) 0.16s;">About</a>
+      <a href="#committees" style="color: #d3dae2; font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; animation: cm-rise 1s both cubic-bezier(0.16,1,0.3,1) 0.24s;">Committees</a>
+      <a href="Committees.dc.html" aria-label="Open the committee index" style="color: #d3dae2; font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; animation: cm-rise 1s both cubic-bezier(0.16,1,0.3,1) 0.32s;">Topic guide</a>
+      <a href="#secretariat" style="color: #d3dae2; font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; animation: cm-rise 1s both cubic-bezier(0.16,1,0.3,1) 0.36s;">Secretariat</a>
+      <a href="#delegates" style="color: #d3dae2; font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; animation: cm-rise 1s both cubic-bezier(0.16,1,0.3,1) 0.40s;">Delegates</a>
+      <a href="Schedule.dc.html" aria-label="Open the CIDEBMUN schedule" style="color: #d3dae2; font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; animation: cm-rise 1s both cubic-bezier(0.16,1,0.3,1) 0.40s;">Schedule</a>
+      <a href="#contact" style="color: #d3dae2; font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; animation: cm-rise 1s both cubic-bezier(0.16,1,0.3,1) 0.48s;">Contact</a>
+    </nav>
+
+    <div style="position: relative; padding: 0 calc(var(--space-8) * 1.5); animation: cm-fade 1.4s both ease 0.1s;">
+      <div style="position: relative; max-width: 1180px; margin: 0 auto;">
+        <div class="blueprint" style="position: relative; height: min(72vh, 620px); min-height: 320px; overflow: hidden; border-color: rgba(242,242,243,0.34);">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <liquid-reveal logo="cidebmun-logo.png" photo="secretariat-group.jpg" background="#1b2733" style="position: absolute; inset: 0;"></liquid-reveal>
+        </div>
+        <p style="margin: var(--space-4) 0 0; font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-accent-300);">Move your cursor over the emblem</p>
+      </div>
+    </div>
+
+    <div id="top" style="position: relative; max-width: 1180px; margin: 0 auto; padding: calc(var(--space-8) * 3) calc(var(--space-8) * 1.5) 0; display: grid; gap: var(--space-8);">
+      <div style="overflow: hidden;">
+        <p style="margin: 0; font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.34em; text-transform: uppercase; color: var(--color-accent-300); animation: cm-mask 1.05s both cubic-bezier(0.16,1,0.3,1) 0.2s;">Change · Lead · Inspire</p>
+      </div>
+      <h1 style="margin: 0; font-size: clamp(40px, 7.8vw, 132px); line-height: 0.92; letter-spacing: -0.015em; color: #f2f2f3; text-wrap: balance;">
+        <span style="display: block; overflow: hidden; padding-bottom: 0.04em;"><span style="display: block; animation: cm-mask 1.1s both cubic-bezier(0.16,1,0.3,1) 0.3s;">Model United</span></span>
+        <span style="display: block; overflow: hidden; padding-bottom: 0.04em;"><span style="display: block; animation: cm-mask 1.1s both cubic-bezier(0.16,1,0.3,1) 0.46s;">Nations at <span style="color: var(--color-accent-400);">CIDEB</span></span></span>
+      </h1>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-8); align-items: end;">
+        <p style="margin: 0; max-width: 46ch; font-size: 17px; line-height: 1.6; color: #b9c4d0; animation: cm-rise 1.2s both cubic-bezier(0.16,1,0.3,1) 0.68s;">Eleven committees, two working languages and 220 seats. The Centro de Investigación y Desarrollo Educativo Bilingüe opens its floor to delegates ready to argue, amend and vote on the questions that decide the decade.</p>
+        <div style="display: flex; gap: var(--space-4); flex-wrap: wrap;">
+          <a href="#committees" class="btn" style="border: 1px solid rgba(242,242,243,0.4); color: #f2f2f3; animation: cm-side 1s both cubic-bezier(0.16,1,0.3,1) 1s;">See the committees</a>
+        </div>
+      </div>
+    </div>
+
+    <div style="position: relative; max-width: 1180px; margin: calc(var(--space-8) * 3) auto 0; padding: 0 calc(var(--space-8) * 1.5);">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); border-top: 1px solid rgba(242,242,243,0.2);">
+        <div style="padding: var(--space-8) var(--space-6) 0 0; animation: cm-rise 1s both cubic-bezier(0.16,1,0.3,1) 1.1s;">
+          <div style="font-family: var(--font-heading); font-size: 46px; line-height: 1; color: #f2f2f3;">11</div>
+          <div style="margin-top: 6px; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent-300);">Committees</div>
+        </div>
+        <div style="padding: var(--space-8) var(--space-6) 0 0; animation: cm-rise 1s both cubic-bezier(0.16,1,0.3,1) 1.22s;">
+          <div style="font-family: var(--font-heading); font-size: 46px; line-height: 1; color: #f2f2f3;">20</div>
+          <div style="margin-top: 6px; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent-300);">Delegates per committee</div>
+        </div>
+        <div style="padding: var(--space-8) var(--space-6) 0 0; animation: cm-rise 1s both cubic-bezier(0.16,1,0.3,1) 1.34s;">
+          <div style="font-family: var(--font-heading); font-size: 46px; line-height: 1; color: #f2f2f3;">2</div>
+          <div style="margin-top: 6px; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent-300);">Working languages</div>
+        </div>
+        <div style="padding: var(--space-8) 0 0 0; animation: cm-rise 1s both cubic-bezier(0.16,1,0.3,1) 1.46s;">
+          <div style="font-family: var(--font-heading); font-size: 46px; line-height: 1; color: #f2f2f3;">3</div>
+          <div style="margin-top: 6px; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent-300);">Experience levels</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <div style="background: var(--color-accent); color: #12191f; border-top: 1px solid var(--color-accent-700); border-bottom: 1px solid var(--color-accent-700); overflow: hidden; padding: 10px 0;">
+    <div style="display: flex; width: max-content; animation: cm-marquee 34s linear infinite;"><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">Change · Lead · Inspire</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">11 Committees</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">Two working languages</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">220 Delegates</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">Monterrey, N.L.</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">Change · Lead · Inspire</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">11 Committees</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">Two working languages</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">220 Delegates</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">Monterrey, N.L.</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">Change · Lead · Inspire</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">11 Committees</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">Two working languages</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">220 Delegates</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">Monterrey, N.L.</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">Change · Lead · Inspire</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">11 Committees</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">Two working languages</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">220 Delegates</span><span style="padding: 0 var(--space-8); font-family: var(--font-heading); font-size: 15px; letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;">Monterrey, N.L.</span></div>
+  </div>
+
+  <section id="about" style="max-width: 1180px; margin: 0 auto; padding: calc(var(--space-8) * 3) calc(var(--space-8) * 1.5);">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: calc(var(--space-8) * 2); align-items: start;">
+      <div>
+        <p style="margin: 0 0 var(--space-4); font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-accent-700); display: inline-block; border-left: 3px solid var(--color-accent); padding-left: 10px;">01 — The conference</p>
+        <h2 data-reveal style="margin: 0 0 var(--space-6); font-size: clamp(32px, 4vw, 52px); line-height: 1.02; letter-spacing: -0.015em;">A bilingual floor for real diplomacy</h2>
+        <p style="margin: 0 0 var(--space-6); font-size: 16px; line-height: 1.65; max-width: 60ch;">CIDEBMUN is the Model United Nations conference of the Centro de Investigación y Desarrollo Educativo Bilingüe in Monterrey. Delegates research a country or character, draft position papers, negotiate blocs and pass resolutions under formal parliamentary procedure — in English or in Spanish, depending on the committee.</p>
+        <p style="margin: 0; font-size: 16px; line-height: 1.65; max-width: 60ch;">Committees are graded Beginner, Intermediate and Advanced, so a first-time delegate and a returning chair both find a room that fits. Alongside the standard General Assembly and council formats, the conference runs crisis, special and joint committees where the agenda changes while you debate it.</p>
+      </div>
+      <div style="display: grid; gap: var(--space-6);">
+        <div data-reveal class="card blueprint">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div class="card-kicker">Formats</div>
+          <div class="card-title">Regular · Crisis · Special · Joint</div>
+          <p class="card-body" style="margin: var(--space-3) 0 0;">Regular committees follow standard rules of procedure. Crisis committees respond to live updates from the crisis staff. Special and joint committees break the mould entirely.</p>
+        </div>
+        <div data-reveal class="card blueprint">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div class="card-kicker">Levels</div>
+          <div class="card-title">Beginner · Intermediate · Advanced</div>
+          <p class="card-body" style="margin: var(--space-3) 0 0;">Four beginner committees, three intermediate, and three advanced rooms for delegates who have chaired or won awards before.</p>
+        </div>
+        <div data-reveal class="card blueprint">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div class="card-kicker">Languages</div>
+          <div class="card-title">English &amp; Spanish</div>
+          <p class="card-body" style="margin: var(--space-3) 0 0;">Most committees sit in English. The Human Rights Council and the Security Council debate in Spanish, and their topics are published in Spanish.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="committees" style="background: var(--color-neutral-100); border-top: 1px solid var(--color-neutral-300); border-bottom: 1px solid var(--color-neutral-300);">
+    <div style="max-width: 1180px; margin: 0 auto; padding: calc(var(--space-8) * 3) calc(var(--space-8) * 1.5);">
+      <p style="margin: 0 0 var(--space-4); font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-accent-700); display: inline-block; border-left: 3px solid var(--color-accent); padding-left: 10px;">02 — Committees &amp; topics</p>
+      <h2 data-reveal style="margin: 0 0 var(--space-4); font-size: clamp(32px, 4vw, 52px); line-height: 1.02; letter-spacing: -0.015em;">Eleven rooms, twenty topics</h2>
+      <p style="margin: 0 0 var(--space-6); max-width: 62ch; font-size: 16px; line-height: 1.65;">Each committee debates two topics and seats twenty delegates. Every committee has its own page: topics in full, the letter from its dais, its chairs and the background paper submission.</p>
+      <a href="Committees.dc.html" aria-label="Open the committee index" class="btn btn-primary blueprint" style="margin-bottom: calc(var(--space-8) * 2);"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>See all committees</a>
+
+      <div style="margin: 0 0 calc(var(--space-8) * 1.5);"><p style="margin: 0 0 var(--space-3); font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-accent-700); display: inline-block; border-left: 3px solid var(--color-accent); padding-left: 10px;">Regular committees</p><h3 style="margin: 0 0 var(--space-3); font-size: clamp(24px, 2.8vw, 34px); line-height: 1.08;">Standard rules of procedure</h3><p style="margin: 0; max-width: 60ch; font-size: 15px; line-height: 1.6; color: var(--color-neutral-700);">Speakers list, moderated and unmoderated caucus, working papers, amendments, vote.</p></div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: var(--space-6);">
+<article data-reveal class="card blueprint" style="display: grid; gap: var(--space-4); align-content: start;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="display: flex; align-items: baseline; gap: var(--space-4); justify-content: space-between;">
+            <span style="font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.18em; color: var(--color-accent-700);">02</span>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end;"><span class="tag tag-accent">Beginner</span><span class="tag tag-outline">Regular</span><span class="tag tag-neutral">Spanish</span></div>
+          </div>
+          <div style="display: flex; align-items: center; gap: var(--space-4);"><img src="emblem-hrc.png" alt="" aria-hidden="true" loading="lazy" style="width: 56px; height: 56px; flex: none; object-fit: contain; display: block;"><h3 style="margin: 0; font-size: 26px; line-height: 1.08;">Human Rights Council</h3></div>
+          <ol style="margin: 0; padding-left: 1.3em; display: grid; gap: var(--space-3); font-size: 15px; line-height: 1.5;">
+            <li lang="es">Protección de los derechos de migrantes y solicitantes de asilo</li>
+            <li lang="es">Garantías para defensores de derechos humanos y libertad de prensa</li>
+          </ol>
+        
+          <a href="committee-hrc.dc.html" aria-label="Open the Human Rights Council page" style="display: inline-flex; align-items: center; gap: 8px; margin-top: var(--space-2); padding-top: var(--space-4); border-top: 1px solid var(--color-neutral-300); font-family: var(--font-heading); font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;">Read the full topic guide →</a>
+        </article>
+<article data-reveal class="card blueprint" style="display: grid; gap: var(--space-4); align-content: start;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="display: flex; align-items: baseline; gap: var(--space-4); justify-content: space-between;">
+            <span style="font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.18em; color: var(--color-accent-700);">03</span>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end;"><span class="tag tag-accent">Beginner</span><span class="tag tag-outline">Regular</span><span class="tag tag-neutral">English</span></div>
+          </div>
+          <div style="display: flex; align-items: center; gap: var(--space-4);"><img src="emblem-ecosoc.png" alt="" aria-hidden="true" loading="lazy" style="width: 56px; height: 56px; flex: none; object-fit: contain; display: block;"><h3 style="margin: 0; font-size: 26px; line-height: 1.08;">Economic and Social Council</h3></div>
+          <ol style="margin: 0; padding-left: 1.3em; display: grid; gap: var(--space-3); font-size: 15px; line-height: 1.5;">
+            <li>Addressing Global Debt Distress in Developing Economies</li>
+            <li>Promoting Foreign Direct Investment and Financial Inclusion in Developing Economies</li>
+          </ol>
+        
+          <a href="committee-ecosoc.dc.html" aria-label="Open the Economic and Social Council page" style="display: inline-flex; align-items: center; gap: 8px; margin-top: var(--space-2); padding-top: var(--space-4); border-top: 1px solid var(--color-neutral-300); font-family: var(--font-heading); font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;">Read the full topic guide →</a>
+        </article>
+<article data-reveal class="card blueprint" style="display: grid; gap: var(--space-4); align-content: start;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="display: flex; align-items: baseline; gap: var(--space-4); justify-content: space-between;">
+            <span style="font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.18em; color: var(--color-accent-700);">04</span>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end;"><span class="tag tag-accent">Beginner</span><span class="tag tag-outline">Regular</span><span class="tag tag-neutral">English</span></div>
+          </div>
+          <div style="display: flex; align-items: center; gap: var(--space-4);"><img src="emblem-who.png" alt="" aria-hidden="true" loading="lazy" style="width: 56px; height: 56px; flex: none; object-fit: contain; display: block;"><h3 style="margin: 0; font-size: 26px; line-height: 1.08;">World Health Organization</h3></div>
+          <ol style="margin: 0; padding-left: 1.3em; display: grid; gap: var(--space-3); font-size: 15px; line-height: 1.5;">
+            <li>Strengthening Global Pandemic Preparedness and Response</li>
+            <li>Improving Access to Essential Medicines and Vaccines in Developing Countries</li>
+          </ol>
+        
+          <a href="committee-who.dc.html" aria-label="Open the World Health Organization page" style="display: inline-flex; align-items: center; gap: 8px; margin-top: var(--space-2); padding-top: var(--space-4); border-top: 1px solid var(--color-neutral-300); font-family: var(--font-heading); font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;">Read the full topic guide →</a>
+        </article>
+<article data-reveal class="card blueprint" style="display: grid; gap: var(--space-4); align-content: start;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="display: flex; align-items: baseline; gap: var(--space-4); justify-content: space-between;">
+            <span style="font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.18em; color: var(--color-accent-700);">07</span>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end;"><span class="tag tag-accent">Intermediate</span><span class="tag tag-outline">Regular</span><span class="tag tag-neutral">English</span></div>
+          </div>
+          <div style="display: flex; align-items: center; gap: var(--space-4);"><img src="emblem-ga.png" alt="" aria-hidden="true" loading="lazy" style="width: 56px; height: 56px; flex: none; object-fit: contain; display: block;"><h3 style="margin: 0; font-size: 26px; line-height: 1.08;">General Assembly</h3></div>
+          <ol style="margin: 0; padding-left: 1.3em; display: grid; gap: var(--space-3); font-size: 15px; line-height: 1.5;">
+            <li>Establishing a Global Framework for the Governance of Artificial Intelligence</li>
+            <li>Reforming the Security Council and Strengthening Multilateral Institutions</li>
+          </ol>
+        
+          <a href="committee-ga.dc.html" aria-label="Open the General Assembly page" style="display: inline-flex; align-items: center; gap: 8px; margin-top: var(--space-2); padding-top: var(--space-4); border-top: 1px solid var(--color-neutral-300); font-family: var(--font-heading); font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;">Read the full topic guide →</a>
+        </article>
+<article data-reveal class="card blueprint" style="display: grid; gap: var(--space-4); align-content: start;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="display: flex; align-items: baseline; gap: var(--space-4); justify-content: space-between;">
+            <span style="font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.18em; color: var(--color-accent-700);">08</span>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end;"><span class="tag tag-accent">Advanced</span><span class="tag tag-outline">Regular</span><span class="tag tag-neutral">English</span></div>
+          </div>
+          <div style="display: flex; align-items: center; gap: var(--space-4);"><img src="emblem-csw.png" alt="" aria-hidden="true" loading="lazy" style="width: 56px; height: 56px; flex: none; object-fit: contain; display: block;"><h3 style="margin: 0; font-size: 26px; line-height: 1.08;">Commission on the Status of Women</h3></div>
+          <ol style="margin: 0; padding-left: 1.3em; display: grid; gap: var(--space-3); font-size: 15px; line-height: 1.5;">
+            <li>Eliminating Gender-Based Violence in Conflict and Post-Conflict Settings</li>
+            <li>Closing the Gender Gap in Economic Participation and Leadership</li>
+          </ol>
+        
+          <a href="committee-csw.dc.html" aria-label="Open the Commission on the Status of Women page" style="display: inline-flex; align-items: center; gap: 8px; margin-top: var(--space-2); padding-top: var(--space-4); border-top: 1px solid var(--color-neutral-300); font-family: var(--font-heading); font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;">Read the full topic guide →</a>
+        </article>
+      <article data-reveal class="card blueprint" style="display: grid; gap: var(--space-4); align-content: start;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="display: flex; align-items: baseline; gap: var(--space-4); justify-content: space-between;">
+            <span style="font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.18em; color: var(--color-accent-700);">11</span>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end;"><span class="tag tag-accent">Intermediate</span><span class="tag tag-outline">Regular</span><span class="tag tag-neutral">English</span></div>
+          </div>
+          <h3 style="margin: 0; font-size: 26px; line-height: 1.08;">United Nations Office on Drugs and Crime</h3>
+          <ol style="margin: 0; padding-left: 1.3em; display: grid; gap: var(--space-3); font-size: 15px; line-height: 1.5;">
+            <li>Strengthening International Cooperation Against Transnational Drug Trafficking</li>
+            <li>Combating Money Laundering and Illicit Financial Networks Used by Drug Trafficking Organizations</li>
+          </ol>
+          <a href="committee-unodc.dc.html" aria-label="Open the United Nations Office on Drugs and Crime page" style="display: inline-flex; align-items: center; gap: 8px; margin-top: var(--space-2); padding-top: var(--space-4); border-top: 1px solid var(--color-neutral-300); font-family: var(--font-heading); font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;">Read the full topic guide →</a>
+        </article>
+      </div>
+
+      <div style="height: calc(var(--space-8) * 2);"></div>
+      <div style="margin: 0 0 calc(var(--space-8) * 1.5);"><p style="margin: 0 0 var(--space-3); font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-accent-700); display: inline-block; border-left: 3px solid var(--color-accent); padding-left: 10px;">Special, crisis &amp; joint committees</p><h3 style="margin: 0 0 var(--space-3); font-size: clamp(24px, 2.8vw, 34px); line-height: 1.08;">Rooms with their own rules</h3><p style="margin: 0; max-width: 60ch; font-size: 15px; line-height: 1.6; color: var(--color-neutral-700);">Named roles instead of country placards, directives alongside resolutions, and a situation the crisis staff can change between sessions.</p></div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: var(--space-6);">
+<article data-reveal class="card blueprint" style="display: grid; gap: var(--space-4); align-content: start;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="display: flex; align-items: baseline; gap: var(--space-4); justify-content: space-between;">
+            <span style="font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.18em; color: var(--color-accent-700);">01</span>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end;"><span class="tag tag-accent">Beginner</span><span class="tag tag-outline">Special</span><span class="tag tag-neutral">English</span></div>
+          </div>
+          <div style="display: flex; align-items: center; gap: var(--space-4);"><img src="emblem-ministry-of-magic.png" alt="" aria-hidden="true" loading="lazy" style="width: 56px; height: 56px; flex: none; object-fit: contain; display: block;"><h3 style="margin: 0; font-size: 26px; line-height: 1.08;">The Ministry of Magic</h3></div>
+          <ol style="margin: 0; padding-left: 1.3em; display: grid; gap: var(--space-3); font-size: 15px; line-height: 1.5;">
+            <li>The Ministry's Response to the Return of Voldemort and Death Eater Infiltration</li>
+            <li>Reform of the International Statute of Secrecy and Muggle-Wizard Relations Amid Rising Dark Activity</li>
+          </ol>
+        
+          <a href="committee-ministry-of-magic.dc.html" aria-label="Open the The Ministry of Magic page" style="display: inline-flex; align-items: center; gap: 8px; margin-top: var(--space-2); padding-top: var(--space-4); border-top: 1px solid var(--color-neutral-300); font-family: var(--font-heading); font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;">Read the full topic guide →</a>
+        </article>
+<article data-reveal class="card blueprint" style="display: grid; gap: var(--space-4); align-content: start;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="display: flex; align-items: baseline; gap: var(--space-4); justify-content: space-between;">
+            <span style="font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.18em; color: var(--color-accent-700);">05</span>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end;"><span class="tag tag-accent">Intermediate</span><span class="tag tag-outline">Crisis · Regular</span><span class="tag tag-neutral">Spanish</span></div>
+          </div>
+          <div style="display: flex; align-items: center; gap: var(--space-4);"><img src="emblem-security-council.png" alt="" aria-hidden="true" loading="lazy" style="width: 56px; height: 56px; flex: none; object-fit: contain; display: block;"><h3 style="margin: 0; font-size: 26px; line-height: 1.08;">Security Council</h3></div>
+          <ol style="margin: 0; padding-left: 1.3em; display: grid; gap: var(--space-3); font-size: 15px; line-height: 1.5;">
+            <li lang="es">La crisis de seguridad en el Sahel y el avance de grupos armados no estatales</li>
+            <li lang="es">Tráfico ilícito de armas y su impacto en zonas de conflicto activo</li>
+          </ol>
+        
+          <a href="committee-security-council.dc.html" aria-label="Open the Security Council page" style="display: inline-flex; align-items: center; gap: 8px; margin-top: var(--space-2); padding-top: var(--space-4); border-top: 1px solid var(--color-neutral-300); font-family: var(--font-heading); font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;">Read the full topic guide →</a>
+        </article>
+<article data-reveal class="card blueprint" style="display: grid; gap: var(--space-4); align-content: start;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="display: flex; align-items: baseline; gap: var(--space-4); justify-content: space-between;">
+            <span style="font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.18em; color: var(--color-accent-700);">06</span>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end;"><span class="tag tag-accent">Intermediate</span><span class="tag tag-outline">Joint</span></div>
+          </div>
+          <div style="display: flex; align-items: center; gap: var(--space-4);"><img src="emblem-joint-war.png" alt="" aria-hidden="true" loading="lazy" style="width: 56px; height: 56px; flex: none; object-fit: contain; display: block;"><h3 style="margin: 0; font-size: 26px; line-height: 1.08;">Joint War Committee</h3></div>
+          <ol style="margin: 0; padding-left: 1.3em; display: grid; gap: var(--space-3); font-size: 15px; line-height: 1.5;">
+            <li>Coordination of Allied Strategy on the Western Front</li>
+            <li>War Financing and Resource Allocation Among the Allied Powers</li>
+          </ol>
+        
+          <a href="committee-joint-war.dc.html" aria-label="Open the Joint War Committee page" style="display: inline-flex; align-items: center; gap: 8px; margin-top: var(--space-2); padding-top: var(--space-4); border-top: 1px solid var(--color-neutral-300); font-family: var(--font-heading); font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;">Read the full topic guide →</a>
+        </article>
+<article data-reveal class="card blueprint" style="display: grid; gap: var(--space-4); align-content: start;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="display: flex; align-items: baseline; gap: var(--space-4); justify-content: space-between;">
+            <span style="font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.18em; color: var(--color-accent-700);">09</span>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end;"><span class="tag tag-accent">Advanced</span><span class="tag tag-outline">Crisis</span><span class="tag tag-neutral">English</span></div>
+          </div>
+          <div style="display: flex; align-items: center; gap: var(--space-4);"><img src="emblem-icc.png" alt="" aria-hidden="true" loading="lazy" style="width: 56px; height: 56px; flex: none; object-fit: contain; display: block;"><h3 style="margin: 0; font-size: 26px; line-height: 1.08;">International Criminal Court</h3></div>
+          <ol style="margin: 0; padding-left: 1.3em; display: grid; gap: var(--space-3); font-size: 15px; line-height: 1.5;">
+            <li>Prosecuting War Crimes and Crimes Against Humanity in Ongoing Conflicts</li>
+            <li>State Cooperation, Sovereignty, and Challenges to ICC Jurisdiction</li>
+          </ol>
+        
+          <a href="committee-icc.dc.html" aria-label="Open the International Criminal Court page" style="display: inline-flex; align-items: center; gap: 8px; margin-top: var(--space-2); padding-top: var(--space-4); border-top: 1px solid var(--color-neutral-300); font-family: var(--font-heading); font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;">Read the full topic guide →</a>
+        </article>
+<article data-reveal class="card blueprint" style="display: grid; gap: var(--space-4); align-content: start;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="display: flex; align-items: baseline; gap: var(--space-4); justify-content: space-between;">
+            <span style="font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.18em; color: var(--color-accent-700);">10</span>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end;"><span class="tag tag-accent">Advanced</span><span class="tag tag-outline">Special</span><span class="tag tag-neutral">English</span></div>
+          </div>
+          <div style="display: flex; align-items: center; gap: var(--space-4);"><img src="emblem-us-senate.png" alt="" aria-hidden="true" loading="lazy" style="width: 56px; height: 56px; flex: none; object-fit: contain; display: block;"><h3 style="margin: 0; font-size: 26px; line-height: 1.08;">United States Senate</h3></div>
+          <ol style="margin: 0; padding-left: 1.3em; display: grid; gap: var(--space-3); font-size: 15px; line-height: 1.5;">
+            <li>Comprehensive Immigration Reform Legislation</li>
+            <li>Campaign Finance Reform and Electoral Integrity</li>
+          </ol>
+        
+          <a href="committee-us-senate.dc.html" aria-label="Open the United States Senate page" style="display: inline-flex; align-items: center; gap: 8px; margin-top: var(--space-2); padding-top: var(--space-4); border-top: 1px solid var(--color-neutral-300); font-family: var(--font-heading); font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;">Read the full topic guide →</a>
+        </article>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <section id="secretariat" style="max-width: 1180px; margin: 0 auto; padding: calc(var(--space-8) * 3) calc(var(--space-8) * 1.5);">
+    <p style="margin: 0 0 var(--space-4); font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-accent-700); display: inline-block; border-left: 3px solid var(--color-accent); padding-left: 10px;">03 — Secretariat</p>
+    <h2 data-reveal style="margin: 0 0 var(--space-4); font-size: clamp(32px, 4vw, 52px); line-height: 1.02; letter-spacing: -0.015em;">Meet the secretariat</h2>
+    <p style="margin: 0 0 calc(var(--space-8) * 2); max-width: 62ch; font-size: 16px; line-height: 1.65;">The team that writes the topics, runs the crises and keeps the conference on schedule.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: var(--space-6);">
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./dsc7643-1--mtnu3i8z-gai9.jpg" alt="Alondra, Secretary General" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Alondra</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Secretary General</div>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./dsc7660-mtnu4rwu-153z.jpg" alt="Angela, Sub-Secretary General" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Angela</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Sub-Secretary General</div>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./dsc7614-mtnu0t6p-7zux.jpg" alt="Rodrigo, Sub-Secretary General" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Rodrigo</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Sub-Secretary General</div>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./dsc7626-mtnu0ky4-dk0l.jpg" alt="Gustavo, Chief of Committees" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Gustavo</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Chief of Committees</div>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./dsc7610-mtnu10mb-t5zc.jpg" alt="Camila, Chief of Committees" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Camila</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Chief of Committees</div>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./whatsapp-image-2026-09-04-at-20-26-17-mtnu8se7-6o85.jpeg" alt="Fernanda, Chief of Crisis" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Fernanda</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Chief of Crisis</div>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./whatsapp-image-2026-09-04-at-21-07-30-mtnu7m4h-0lpi.jpeg" alt="Allyson, Chief of External Affairs" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Allyson</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Chief of External Affairs</div>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./dsc7616-mtntzzq7-ooqo.jpg" alt="Mauricio, Chief of External Affairs" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Mauricio</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Chief of External Affairs</div>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./dsc7606-mtnu1rcw-i94y.jpg" alt="Marco, Chief of Logistics" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Marco</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Chief of Logistics</div>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./whatsapp-image-2026-09-04-at-20-18-52-mtnu88pz-nuu3.jpeg" alt="Oscar, Chief of Finances" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Oscar</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Chief of Finances</div>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./dsc7620-mtnu95ii-nv73.jpg" alt="Darley, Chief of Social Media" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Darley</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Chief of Social Media</div>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./dsc7604-mtnu2p9l-k6tv.jpg" alt="Orlando, Chief of Technology" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Orlando</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Chief of Technology</div>
+        </figcaption>
+      </figure>
+
+      <figure data-reveal style="margin: 0;">
+        <div class="blueprint" style="aspect-ratio: 3 / 4; overflow: hidden;">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="./dsc7592-mtnu2f6q-63nk.jpg" alt="Corazón, Chief of Staff" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block;">
+        </div>
+        <figcaption style="padding-top: var(--space-4);">
+          <div style="font-family: var(--font-heading); font-size: 21px; line-height: 1.14;">Corazón</div>
+          <div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-700);">Chief of Staff</div>
+        </figcaption>
+      </figure>
+
+    </div>
+  </section>
+
+  <section id="delegates" style="background: var(--color-accent-900); color: #f2f2f3;">
+    <div style="max-width: 1180px; margin: 0 auto; padding: calc(var(--space-8) * 3) calc(var(--space-8) * 1.5);">
+      <p style="margin: 0 0 var(--space-4); font-family: var(--font-heading); font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-accent-300);">04 — Delegates</p>
+      <h2 data-reveal style="margin: 0 0 calc(var(--space-8) * 2); font-size: clamp(32px, 4vw, 52px); line-height: 1.02; letter-spacing: -0.015em; color: #f2f2f3;">How to take a seat</h2>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0; border-top: 1px solid rgba(242,242,243,0.2);">
+        <div style="padding: var(--space-8) var(--space-8) var(--space-8) 0; border-right: 1px solid rgba(242,242,243,0.14);">
+          <div style="font-family: var(--font-heading); font-size: 34px; line-height: 1; color: var(--color-accent-400);">01</div>
+          <h3 style="margin: var(--space-4) 0 var(--space-3); font-size: 21px; color: #f2f2f3;">Choose a committee</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #b9c4d0;">Pick a level and a working language. Delegations may request specific rooms; single delegates are placed by the Chief of Committees.</p>
+        </div>
+        <div style="padding: var(--space-8); border-right: 1px solid rgba(242,242,243,0.14);">
+          <div style="font-family: var(--font-heading); font-size: 34px; line-height: 1; color: var(--color-accent-400);">02</div>
+          <h3 style="margin: var(--space-4) 0 var(--space-3); font-size: 21px; color: #f2f2f3;">Register and pay</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #b9c4d0;">Registration and payment details are issued by the Chief of Finances once your school confirms its delegation size.</p>
+        </div>
+        <div style="padding: var(--space-8); border-right: 1px solid rgba(242,242,243,0.14);">
+          <div style="font-family: var(--font-heading); font-size: 34px; line-height: 1; color: var(--color-accent-400);">03</div>
+          <h3 style="margin: var(--space-4) 0 var(--space-3); font-size: 21px; color: #f2f2f3;">Prepare</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #b9c4d0;">Study guides, rules of procedure and position paper templates are published for every committee ahead of the conference.</p>
+        </div>
+        <div style="padding: var(--space-8) 0 var(--space-8) var(--space-8);">
+          <div style="font-family: var(--font-heading); font-size: 34px; line-height: 1; color: var(--color-accent-400);">04</div>
+          <h3 style="margin: var(--space-4) 0 var(--space-3); font-size: 21px; color: #f2f2f3;">Debate</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #b9c4d0;">Formal debate, moderated caucus, working papers, amendments, vote. Awards are given per committee.</p>
+        </div>
+      </div>
+
+      <div style="margin-top: calc(var(--space-8) * 2); display: flex; gap: var(--space-4); flex-wrap: wrap; align-items: center;">
+        <span style="font-size: 14px; color: #b9c4d0;">Dates, fees and the schedule will be published here.</span>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" style="max-width: 1180px; margin: 0 auto; padding: calc(var(--space-8) * 3) calc(var(--space-8) * 1.5);">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: calc(var(--space-8) * 2);">
+      <div>
+        <div style="display: flex; align-items: baseline; gap: 8px; font-family: var(--font-heading); font-weight: 700; font-size: 26px; letter-spacing: 0.02em;">CIDEB<span style="font-weight: 400; color: var(--color-accent-700);">MUN</span></div>
+        <p style="margin: var(--space-4) 0 0; font-family: var(--font-heading); font-size: 14px; letter-spacing: 0.26em; text-transform: uppercase; color: var(--color-accent-700);">Change · Lead · Inspire</p>
+      </div>
+      <div>
+        <h3 style="margin: 0 0 var(--space-3); font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--color-neutral-700);">Location</h3>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6;">Avenida Lázaro Cárdenas, Mederos UANL<br>64930 Monterrey, N.L.</p>
+      </div>
+      <div>
+        <h3 style="margin: 0 0 var(--space-3); font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--color-neutral-700);">Contact</h3>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6;"><a href="mailto:cidebmuncontact@gmail.com">cidebmuncontact@gmail.com</a></p>
+      </div>
+      <div>
+        <h3 style="margin: 0 0 var(--space-3); font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--color-neutral-700);">Follow</h3>
+        <div style="display: flex; flex-direction: column; gap: 4px; font-size: 15px;">
+          <a href="https://www.instagram.com/cidebmun_/" target="_blank" rel="noopener noreferrer" aria-label="Open the CIDEBMUN Instagram page in a new tab">Instagram — @cidebmun_</a>
+        </div>
+      </div>
+    </div>
+    <p style="margin: calc(var(--space-8) * 2) 0 0; padding-top: var(--space-6); border-top: 1px solid var(--color-neutral-300); font-size: 13px; color: var(--color-neutral-600);">© CIDEBMUN — Centro de Investigación y Desarrollo Educativo Bilingüe</p>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  componentDidMount() {
+    this._reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    requestAnimationFrame(() => requestAnimationFrame(() => this.enhance()));
+  }
+
+  enhance() {
+    if (this._done) return;
+    this._done = true;
+    const D = document;
+    const EASE = 'cubic-bezier(.16,1,.3,1)';
+
+    // ---- scroll reveal -------------------------------------------------
+    if (!this._reduced && 'IntersectionObserver' in window) {
+      const targets = [].slice.call(D.querySelectorAll('[data-reveal]'))
+        .filter(el => !el.closest('header'));
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (!e.isIntersecting) return;
+          const el = e.target;
+          const d = el.getAttribute('data-d') || '0';
+          el.style.transition = 'opacity .75s ' + EASE + ' ' + d + 'ms, transform .9s ' + EASE + ' ' + d + 'ms';
+          el.style.opacity = '1';
+          el.style.transform = 'none';
+          io.unobserve(el);
+        });
+      }, { rootMargin: '0px 0px -6% 0px', threshold: 0.06 });
+      targets.forEach((el, i) => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(26px)';
+        el.style.willChange = 'opacity, transform';
+        el.setAttribute('data-d', String((i % 3) * 90));
+        io.observe(el);
+      });
+    }
+
+    // ---- hero counters -------------------------------------------------
+    const stats = D.querySelectorAll('header div[style*="font-size: 46px"]');
+    stats.forEach(el => {
+      const target = parseInt(el.textContent.trim(), 10);
+      if (isNaN(target) || this._reduced) return;
+      const t0 = performance.now(), dur = 1200;
+      el.textContent = '0';
+      const step = t => {
+        const p = Math.min(1, (t - t0) / dur);
+        el.textContent = String(Math.round(target * (1 - Math.pow(1 - p, 3))));
+        if (p < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    });
+
+    // ---- link + button motion ------------------------------------------
+    D.querySelectorAll('nav a').forEach(a => {
+      a.style.transition = 'color .3s ease, transform .35s ' + EASE;
+      a.addEventListener('pointerenter', () => { a.style.color = '#f2f2f3'; a.style.transform = 'translateY(-2px)'; });
+      a.addEventListener('pointerleave', () => { a.style.color = ''; a.style.transform = ''; });
+    });
+    D.querySelectorAll('.btn').forEach(b => {
+      b.style.transition = 'transform .35s ' + EASE + ', box-shadow .35s ease';
+      b.addEventListener('pointerenter', () => {
+        b.style.transform = 'translateY(-3px)';
+        b.style.boxShadow = '0 14px 30px -14px rgba(15,23,31,.55)';
+      });
+      b.addEventListener('pointerleave', () => { b.style.transform = ''; b.style.boxShadow = ''; });
+    });
+
+    // ---- committee + topic cards lift ----------------------------------
+    D.querySelectorAll('article.card, a.card, #committees .card').forEach(c => {
+      c.style.transition = 'transform .45s ' + EASE + ', border-color .35s ease, box-shadow .45s ease, background-color .35s ease';
+      c.addEventListener('pointerenter', () => {
+        c.style.transform = 'translateY(-6px)';
+        c.style.borderColor = 'var(--color-accent)';
+        c.style.boxShadow = '0 22px 44px -26px rgba(15,23,31,.5)';
+        c.style.backgroundColor = 'rgba(89,128,166,.05)';
+      });
+      c.addEventListener('pointerleave', () => {
+        c.style.transform = ''; c.style.borderColor = ''; c.style.boxShadow = ''; c.style.backgroundColor = '';
+      });
+    });
+
+    // ---- secretariat spotlight -----------------------------------------
+    const grid = D.querySelector('#secretariat div[style*="minmax(210px"]');
+    if (!grid) return;
+    const figs = [].slice.call(grid.children);
+    const frame = f => f.firstElementChild;
+    const img = f => f.querySelector('img');
+    const cap = f => f.querySelector('figcaption');
+
+    const reset = () => figs.forEach(o => {
+      o.style.transform = ''; o.style.opacity = ''; o.style.filter = ''; o.style.zIndex = '';
+      const fr = frame(o); if (fr) { fr.style.borderColor = ''; fr.style.boxShadow = ''; }
+      const im = img(o); if (im) im.style.transform = '';
+      const cp = cap(o); if (cp) cp.style.transform = '';
+    });
+
+    figs.forEach(f => {
+      f.style.position = 'relative';
+      f.style.transition = 'transform .55s ' + EASE + ', opacity .4s ease, filter .4s ease';
+      f.style.willChange = 'transform';
+      const fr = frame(f); if (fr) fr.style.transition = 'border-color .4s ease, box-shadow .5s ease';
+      const im = img(f); if (im) im.style.transition = 'transform .7s ' + EASE;
+      const cp = cap(f); if (cp) cp.style.transition = 'transform .5s ' + EASE;
+
+      f.addEventListener('pointerenter', () => {
+        if (this._reduced) return;
+        figs.forEach(o => {
+          if (o === f) {
+            o.style.transform = 'scale(1.10)';
+            o.style.opacity = '1';
+            o.style.filter = 'none';
+            o.style.zIndex = '5';
+            const ofr = frame(o);
+            if (ofr) { ofr.style.borderColor = 'var(--color-accent)'; ofr.style.boxShadow = '0 26px 50px -22px rgba(15,23,31,.55)'; }
+            const oim = img(o); if (oim) oim.style.transform = 'scale(1.07)';
+            const ocp = cap(o); if (ocp) ocp.style.transform = 'translateY(3px)';
+          } else {
+            o.style.transform = 'scale(.97)';
+            o.style.opacity = '.68';
+            o.style.filter = 'none';
+            o.style.zIndex = '1';
+          }
+        });
+      });
+    });
+    grid.addEventListener('pointerleave', reset);
+  }
+}
+</script>
+</body>
+</html>
